@@ -33,7 +33,7 @@ SET SaleDateConverted = CONVERT(Date,SaleDate)
 
 Select *
 From Portfolio.dbo.NashvilleHousing
---Where PropertyAddress is null
+
 order by ParcelID
 
 
